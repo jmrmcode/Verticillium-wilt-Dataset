@@ -34,7 +34,7 @@ encouraging this research.
 SHARING/ACCESS INFORMATION
 -------------------------- 
 
-Licenses/restrictions placed on the data, or limitations of reuse: GNU GENERAL PUBLIC LICENSE; Version 3, 29 June 2007 (https://github.com/jmrmcode/Lidar-Landsat-data-fusion/blob/master/LICENSE)
+Licenses/restrictions placed on the data, or limitations of reuse: GNU GENERAL PUBLIC LICENSE; Version 3, 29 June 2007 (https://github.com/jmrmcode/Verticillium-wilt-Dataset/edit/master/LICENSE)
 
 
 --------------------
