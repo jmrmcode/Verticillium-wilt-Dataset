@@ -41,7 +41,7 @@ Licenses/restrictions placed on the data, or limitations of reuse: GNU GENERAL P
 DATA & FILE OVERVIEW
 --------------------
 
-Files list: Requena-Mullor_et_al_DataSet.csv
+Files list: VerticilliumWilt_DataSet.csv
 
 Sources list: WorldClim database (http://www.worldclim.org/), Environmental Information Network of Andalusia (http://www.juntadeandalucia.es/medioambiente/site/web/rediam)
 
