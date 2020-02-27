@@ -43,7 +43,7 @@ DATA & FILE OVERVIEW
 
 Files list: VerticilliumWilt_DataSet.csv
 
-Sources list: WorldClim database (http://www.worldclim.org/), Environmental Information Network of Andalusia (http://www.juntadeandalucia.es/medioambiente/site/web/rediam)
+Sources list: WorldClim v.2 database (http://www.worldclim.org/), Environmental Information Network of Andalusia (http://www.juntadeandalucia.es/medioambiente/site/web/rediam)
 
 Date of creation: 2019-01-15
 
@@ -63,19 +63,20 @@ People involved with sample collection, processing, and submission: Estefanía R
 DATA-SPECIFIC INFORMATION
 --------------------------
 
-Number of variables: 10
+Number of variables: 9
 
 Number of cases/rows: 779
 
 List of variables:
 
 		Occurrence: Occurrence of V. dahliae. Binary
-		AnnualRainfall: Annual rainfall
-		RainfallSeasonality: Intra-annual rainfall seasonality
-		TempSeasonality: Intra-annual temperature seasonality
-		MaxTemp: Maximum temperature of the warmest month
-		Isothermality: (Mean diurnal temperature range/temperature annual range) x 100
-		Slope: Slope in degrees
-		Watering: Factorial variable with two levels: "Irrigated" and "Rainfed"
-		PlantMaterialOrigin: Factorial variable with two levels: "Vivero" and "Estaca"
-		Area: parcel area in ha.
+		AnnualRainfall: Annual rainfall. Continuous
+		RainfallSeasonality: Intra-annual rainfall seasonality. Continuous
+		TempSeasonality: Intra-annual temperature seasonality. Continuous
+		MaxTemp: Maximum temperature of the warmest month. Continuous
+		Isothermality: (Mean diurnal temperature range/temperature annual range) x 100. Continuous
+		Watering: Factorial variable with two levels: "Irrigated" and "Rainfed". Factorial
+		PlantMaterialOrigin: Factorial variable with two levels: "Vivero" (Nursery) and "Estaca" (Annual pruning). Factorial
+		Area: parcel area in ha. Continuous
+
+All continuous variables were standardized to have a mean of zero and standard deviation of 1.
