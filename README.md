@@ -1,5 +1,5 @@
 # Verticillium-wilt-Dataset
-Data release provided in support of “Climatic drivers of Verticillium wilt in olive”
+Data release provided in support of “Climatic drivers of Verticillium dahliae occurrence in Mediterranean olive-growing areas of southern Spain”
 
 This README.txt file was generated on 2019/11/22 by Juan Miguel Requena-Mullor
 
@@ -9,7 +9,7 @@ GENERAL INFORMATION
 
 This data release is provided in support of 
 
-Juan M Requena-Mullor*, Mª del Mar Téllez, Jose M. García-Garrido, Pedro A García, Estefanía Rodríguez*. (Under review). "Climatic drivers of Verticillium wilt in olive".
+Juan M Requena-Mullor*, Jose M. García-Garrido, Pedro A García, Estefanía Rodríguez*. (Under review). "Climatic drivers of Verticillium dahliae occurrence in Mediterranean olive-growing areas of southern Spain".
 
 First author*
 
@@ -69,7 +69,7 @@ Number of cases/rows: 779
 
 List of variables:
 
-		Occurrence: Occurrence of V. dahliae. Binary
+		Occurrence: Occurrence of VVerticillium dahliae. Binary
 		AnnualRainfall: Annual rainfall. Continuous
 		RainfallSeasonality: Intra-annual rainfall seasonality. Continuous
 		TempSeasonality: Intra-annual temperature seasonality. Continuous
