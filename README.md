@@ -3,6 +3,8 @@ Data release provided in support of the manuscript titled “Climatic drivers of
 
 This README.txt file was generated on 2019/11/22 by Juan Miguel Requena-Mullor
 
+This release has been published on Zenodo: [![DOI](https://zenodo.org/badge/223633314.svg)](https://zenodo.org/badge/latestdoi/223633314)
+
 -------------------
 GENERAL INFORMATION
 -------------------
