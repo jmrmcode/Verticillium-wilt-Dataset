@@ -63,7 +63,7 @@ People involved with sample collection, processing, and submission: Estefanía R
 DATA-SPECIFIC INFORMATION
 --------------------------
 
-Number of variables: 9
+Number of variables: 10
 
 Number of cases/rows: 779
 
@@ -78,5 +78,6 @@ List of variables:
 		Watering: Factorial variable with two levels: "Irrigated" and "Rainfed". Factorial
 		PlantMaterialOrigin: Factorial variable with two levels: "Vivero" (Nursery) and "Estaca" (Annual pruning). Factorial
 		Area: parcel area in ha. Continuous
+		Slope: slope in degrees. Continuous
 
 All continuous variables were standardized to have a mean of zero and standard deviation of 1.
