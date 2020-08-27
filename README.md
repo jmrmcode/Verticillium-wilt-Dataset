@@ -50,7 +50,7 @@ Date of creation: 2019-01-15
 METHODOLOGICAL INFORMATION
 --------------------------
 
-Description of methods used for collection/generation of data: see the "Materials & Methods" section in Requena-Mullor et al.
+Description of methods used for collection/generation of data: see the "Materials & Methods" section in the above mentioned manuscript.
 
 Software needed to interpret the data: R version 3.6.0 (2019-04-26) -- "Planting of a Tree" 
 
