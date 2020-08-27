@@ -1,5 +1,5 @@
 # Verticillium-wilt-Dataset
-Data release provided in support of “Climatic drivers of Verticillium dahliae occurrence in Mediterranean olive-growing areas of southern Spain”
+Data release provided in support of the manuscript titled “Climatic drivers of Verticillium dahliae occurrence in Mediterranean olive-growing areas of southern Spain”
 
 This README.txt file was generated on 2019/11/22 by Juan Miguel Requena-Mullor
 
@@ -13,7 +13,7 @@ Juan M Requena-Mullor*, Jose M. García-Garrido, Pedro A García, Estefanía Rod
 
 First author*
 
-This data release contains the data set used for the analysis described in the "Modelling approach" section of the associated manuscript.
+This data release contains the data set used for the analysis described in the "Modelling approach" section of the above mentioned manuscript.
 
 Author's Information:
 
@@ -25,9 +25,7 @@ Date of data collection: from 2003-01-01 to 2005-12-31
 
 Geographic location of data collection: Granada (Spain)
 
-Information about funding sources or sponsorship that supported the collection of the data: This work was supported by Caja Rural Foundation in Granada, Spain. We would like to thank
-farmers from Granada province for kindly permitting us to research their olive groves. We specially wish to thank Mr. Antonio León, chief executive officer of Caja Rural in Granada, for
-encouraging this research.
+Information about funding sources or sponsorship that supported the collection of the data: This work was supported by Caja Rural Foundation in Granada, Spain. We would like to thank farmers from Granada province for kindly permitting us to research their olive groves. We specially wish to thank Mr. Antonio León, chief executive officer of Caja Rural in Granada, for encouraging this research.
 
 
 --------------------------
@@ -52,7 +50,7 @@ Date of creation: 2019-01-15
 METHODOLOGICAL INFORMATION
 --------------------------
 
-Description of methods used for collection/generation of data: see the "Materials & Methods" section of the associated manuscript.
+Description of methods used for collection/generation of data: see the "Materials & Methods" section in Requena-Mullor et al.
 
 Software needed to interpret the data: R version 3.6.0 (2019-04-26) -- "Planting of a Tree" 
 
