@@ -1,9 +1,11 @@
 # Verticillium-wilt-Dataset
-Data release provided in support of the manuscript titled “Climatic drivers of Verticillium dahliae occurrence in Mediterranean olive-growing areas of southern Spain”
+Data release provided in support of the manuscript titled “Climatic drivers of Verticillium dahliae occurrence in Mediterranean olive-growing areas of southern Spain”.
 
 This README.txt file was generated on 2019/11/22 by Juan Miguel Requena-Mullor
 
 This release has been published on Zenodo: [![DOI](https://zenodo.org/badge/223633314.svg)](https://zenodo.org/badge/latestdoi/223633314)
+
+In addition, the R code to compare between boosted regression trees and logistic regression models for V.dahliae occurrence is provided.
 
 -------------------
 GENERAL INFORMATION
