@@ -51,9 +51,9 @@ for (i in c(1:10)) {
   BRT_logloss <- logLoss(actual = testdata$Occurrence, predicted = preds)
   logloss[i, 1] <- BRT_logloss
   
-  ## run GLM model
-  mod.glm <- glm(Occurrence ~ 1 + Isothermality * Watering + RainfallSeasonality * Isothermality + PlantMaterialOrigin + Area, data=trainingdata,
-                 family=binomial(link="cloglog"))
+  ## run the top-ranked GLM model (see Table 1 in Requena-Mullor et al)
+  mod.glm <- glm(Occurrence ~ 1 + Isothermality * Watering + RainfallSeasonality * Isothermality + PlantMaterialOrigin + Area, data = trainingdata,
+                 family = binomial(link = "cloglog"))
   
   # GLM model performance
   GLM_logloss <- logLoss(actual = testdata$Occurrence, predicted = predict(mod.glm, testdata, type = "response"))
