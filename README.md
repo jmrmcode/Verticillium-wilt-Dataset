@@ -5,7 +5,7 @@ This README.txt file was generated on 2019/11/22 by Juan Miguel Requena-Mullor
 
 This release has been published on Zenodo: [![DOI](https://zenodo.org/badge/223633314.svg)](https://zenodo.org/badge/latestdoi/223633314)
 
-In addition, the R code to compare between boosted regression trees and logistic regression models for V.dahliae occurrence is provided.
+In addition, the R code to compare between boosted regression trees and binomial regression models for V.dahliae occurrence is provided.
 
 -------------------
 GENERAL INFORMATION
