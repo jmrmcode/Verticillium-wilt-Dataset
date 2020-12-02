@@ -1,5 +1,5 @@
 ####################################################################
-####***COMPARISON BETWEEN BRT and GLM models for V. dahliae occurrence
+####***COMPARISON BETWEEN BRT and BINOMIAL models for V. dahliae occurrence
 
 # install.packages("dismo", DEPENDENCES=T)
 # install.packages("gbm", DEPENDENCES=T)
@@ -25,7 +25,7 @@ data.grouped <- split(data$ID, ii)
 ##  run the models using the 10 data blocks
 f_rownames <- function(x) {paste0("Partition", x)}
 rownames <- sapply(c(1:10), FUN = f_rownames)
-logloss <- data.frame(matrix(NA, nrow = 10, ncol = 2, dimnames = list(rownames, c("BRT_logloss", "GLM_logloss"))))
+logloss <- data.frame(matrix(NA, nrow = 10, ncol = 2, dimnames = list(rownames, c("BRT_logloss", "Binomial_logloss"))))
 
 ## set BRT parameters
 tree.complexity <- 1 # set tree.complexity
@@ -51,13 +51,13 @@ for (i in c(1:10)) {
   BRT_logloss <- logLoss(actual = testdata$Occurrence, predicted = preds)
   logloss[i, 1] <- BRT_logloss
   
-  ## run the top-ranked GLM model (see Table 1 in Requena-Mullor et al)
+  ## run the top-ranked binomial model (see Table 1 in Requena-Mullor et al)
   mod.glm <- glm(Occurrence ~ 1 + Isothermality * Watering + RainfallSeasonality * Isothermality + PlantMaterialOrigin + Area, data = trainingdata,
                  family = binomial(link = "cloglog"))
   
-  # GLM model performance
-  GLM_logloss <- logLoss(actual = testdata$Occurrence, predicted = predict(mod.glm, testdata, type = "response"))
-  logloss[i, 2] <- GLM_logloss
+  # Binomial model performance
+  Binomial_logloss <- logLoss(actual = testdata$Occurrence, predicted = predict(mod.glm, testdata, type = "response"))
+  logloss[i, 2] <- Binomial_logloss
   
 }
 
